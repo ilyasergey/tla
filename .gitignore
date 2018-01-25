@@ -1,0 +1,8 @@
+*.toolbox
+*.old
+*.swp
+*.dvi
+*.log
+*.aux
+*.tex
+*.pdf
