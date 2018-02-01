@@ -1,5 +1,5 @@
 ------------------------------- MODULE Trades -------------------------------
-
+EXTENDS Naturals
 People == {"alice", "bob"}
 Items == {"ore", "sheep", "brick"}
 (* --algorithm trade
@@ -19,5 +19,5 @@ end algorithm; *)
 
 =============================================================================
 \* Modification History
-\* Last modified Tue Oct 10 12:29:49 CDT 2017 by chris
+\* Last modified Thu Feb 01 13:03:07 CST 2018 by chris
 \* Created Tue Oct 10 12:18:32 CDT 2017 by chris
