@@ -1,4 +1,4 @@
--------------------------- MODULE AsynchInterface --------------------------
+-------------------------- MODULE Channel -----------------------------------
 EXTENDS Naturals
 CONSTANT Data
 VARIABLE chan
@@ -16,5 +16,5 @@ Spec == Init /\ [][Next]_chan
 THEOREM Spec => []TypeInvariant
 =============================================================================
 \* Modification History
-\* Last modified Wed Jan 31 21:49:36 CST 2018 by chris
+\* Last modified Thu Feb 01 13:13:47 CST 2018 by chris
 \* Created Wed Jan 31 21:12:54 CST 2018 by chris
